@@ -31,6 +31,10 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise', branch: 'rails4', github: 'plataformatec/devise'
 gem 'devise_invitable', branch: 'rails4', github: 'scambra/devise_invitable'
 
+# Styles
+gem 'compass_twitter_bootstrap'
+gem 'compass-rails', github: 'milgner/compass-rails', ref: '1749c06f15dc4b058427e7969810457213647fb8'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
